@@ -1,0 +1,7 @@
+package com.tapianadia.forohub.repositories;
+
+import com.tapianadia.forohub.entities.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
